@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		326ABBBF20858C1E00BD69EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 326ABBBE20858C1E00BD69EC /* AppDelegate.m */; };
 		326ABBC220858C1E00BD69EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 326ABBC120858C1E00BD69EC /* ViewController.m */; };
-		326ABBC520858C1F00BD69EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 326ABBC320858C1F00BD69EC /* Main.storyboard */; };
 		326ABBC720858C1F00BD69EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 326ABBC620858C1F00BD69EC /* Assets.xcassets */; };
 		326ABBCA20858C1F00BD69EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 326ABBC820858C1F00BD69EC /* LaunchScreen.storyboard */; };
 		326ABBCD20858C1F00BD69EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 326ABBCC20858C1F00BD69EC /* main.m */; };
 		326ABBD720858C1F00BD69EC /* WGRuntimeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 326ABBD620858C1F00BD69EC /* WGRuntimeDemoTests.m */; };
 		326ABBE220858C1F00BD69EC /* WGRuntimeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 326ABBE120858C1F00BD69EC /* WGRuntimeDemoUITests.m */; };
+		326ABBF12085996900BD69EC /* WGMsgSend.m in Sources */ = {isa = PBXBuildFile; fileRef = 326ABBF02085996900BD69EC /* WGMsgSend.m */; };
+		326ABBF42085998900BD69EC /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 326ABBF32085998900BD69EC /* Person.m */; };
+		326ABBFA2085C6D100BD69EC /* NSURL+WGUrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 326ABBF92085C6D100BD69EC /* NSURL+WGUrl.m */; };
+		326ABBFD2085CC9500BD69EC /* MsgZFPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 326ABBFC2085CC9500BD69EC /* MsgZFPerson.m */; };
+		326ABC032085DF0C00BD69EC /* WGAddClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 326ABC022085DF0C00BD69EC /* WGAddClass.m */; };
+		326ABC062085EDD800BD69EC /* PersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 326ABC052085EDD800BD69EC /* PersonModel.m */; };
+		326ABC09208607D700BD69EC /* CPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 326ABC08208607D700BD69EC /* CPerson.m */; };
+		326ABC0C208608DE00BD69EC /* CPerson+Associate.m in Sources */ = {isa = PBXBuildFile; fileRef = 326ABC0B208608DE00BD69EC /* CPerson+Associate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +47,6 @@
 		326ABBBE20858C1E00BD69EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		326ABBC020858C1E00BD69EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		326ABBC120858C1E00BD69EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		326ABBC420858C1F00BD69EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		326ABBC620858C1F00BD69EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		326ABBC920858C1F00BD69EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		326ABBCB20858C1F00BD69EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +57,22 @@
 		326ABBDD20858C1F00BD69EC /* WGRuntimeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WGRuntimeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		326ABBE120858C1F00BD69EC /* WGRuntimeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGRuntimeDemoUITests.m; sourceTree = "<group>"; };
 		326ABBE320858C1F00BD69EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		326ABBEF2085996900BD69EC /* WGMsgSend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGMsgSend.h; sourceTree = "<group>"; };
+		326ABBF02085996900BD69EC /* WGMsgSend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGMsgSend.m; sourceTree = "<group>"; };
+		326ABBF22085998900BD69EC /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		326ABBF32085998900BD69EC /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		326ABBF82085C6D100BD69EC /* NSURL+WGUrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURL+WGUrl.h"; sourceTree = "<group>"; };
+		326ABBF92085C6D100BD69EC /* NSURL+WGUrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURL+WGUrl.m"; sourceTree = "<group>"; };
+		326ABBFB2085CC9500BD69EC /* MsgZFPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MsgZFPerson.h; sourceTree = "<group>"; };
+		326ABBFC2085CC9500BD69EC /* MsgZFPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MsgZFPerson.m; sourceTree = "<group>"; };
+		326ABC012085DF0C00BD69EC /* WGAddClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGAddClass.h; sourceTree = "<group>"; };
+		326ABC022085DF0C00BD69EC /* WGAddClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGAddClass.m; sourceTree = "<group>"; };
+		326ABC042085EDD800BD69EC /* PersonModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonModel.h; sourceTree = "<group>"; };
+		326ABC052085EDD800BD69EC /* PersonModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonModel.m; sourceTree = "<group>"; };
+		326ABC07208607D700BD69EC /* CPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPerson.h; sourceTree = "<group>"; };
+		326ABC08208607D700BD69EC /* CPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPerson.m; sourceTree = "<group>"; };
+		326ABC0A208608DE00BD69EC /* CPerson+Associate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CPerson+Associate.h"; sourceTree = "<group>"; };
+		326ABC0B208608DE00BD69EC /* CPerson+Associate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CPerson+Associate.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +127,22 @@
 				326ABBBE20858C1E00BD69EC /* AppDelegate.m */,
 				326ABBC020858C1E00BD69EC /* ViewController.h */,
 				326ABBC120858C1E00BD69EC /* ViewController.m */,
-				326ABBC320858C1F00BD69EC /* Main.storyboard */,
+				326ABBEF2085996900BD69EC /* WGMsgSend.h */,
+				326ABBF02085996900BD69EC /* WGMsgSend.m */,
+				326ABBF22085998900BD69EC /* Person.h */,
+				326ABBF32085998900BD69EC /* Person.m */,
+				326ABBF82085C6D100BD69EC /* NSURL+WGUrl.h */,
+				326ABBF92085C6D100BD69EC /* NSURL+WGUrl.m */,
+				326ABBFB2085CC9500BD69EC /* MsgZFPerson.h */,
+				326ABBFC2085CC9500BD69EC /* MsgZFPerson.m */,
+				326ABC012085DF0C00BD69EC /* WGAddClass.h */,
+				326ABC022085DF0C00BD69EC /* WGAddClass.m */,
+				326ABC042085EDD800BD69EC /* PersonModel.h */,
+				326ABC052085EDD800BD69EC /* PersonModel.m */,
+				326ABC07208607D700BD69EC /* CPerson.h */,
+				326ABC08208607D700BD69EC /* CPerson.m */,
+				326ABC0A208608DE00BD69EC /* CPerson+Associate.h */,
+				326ABC0B208608DE00BD69EC /* CPerson+Associate.m */,
 				326ABBC620858C1F00BD69EC /* Assets.xcassets */,
 				326ABBC820858C1F00BD69EC /* LaunchScreen.storyboard */,
 				326ABBCB20858C1F00BD69EC /* Info.plist */,
@@ -240,7 +277,6 @@
 			files = (
 				326ABBCA20858C1F00BD69EC /* LaunchScreen.storyboard in Resources */,
 				326ABBC720858C1F00BD69EC /* Assets.xcassets in Resources */,
-				326ABBC520858C1F00BD69EC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +302,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				326ABBC220858C1E00BD69EC /* ViewController.m in Sources */,
+				326ABBF12085996900BD69EC /* WGMsgSend.m in Sources */,
+				326ABC0C208608DE00BD69EC /* CPerson+Associate.m in Sources */,
+				326ABBFD2085CC9500BD69EC /* MsgZFPerson.m in Sources */,
+				326ABBF42085998900BD69EC /* Person.m in Sources */,
+				326ABC032085DF0C00BD69EC /* WGAddClass.m in Sources */,
 				326ABBCD20858C1F00BD69EC /* main.m in Sources */,
+				326ABC062085EDD800BD69EC /* PersonModel.m in Sources */,
+				326ABBFA2085C6D100BD69EC /* NSURL+WGUrl.m in Sources */,
+				326ABC09208607D700BD69EC /* CPerson.m in Sources */,
 				326ABBBF20858C1E00BD69EC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,14 +347,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		326ABBC320858C1F00BD69EC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				326ABBC420858C1F00BD69EC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		326ABBC820858C1F00BD69EC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,6 +468,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49T87S5RLN;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = WGRuntimeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wanggang.WGRuntimeDemo;
@@ -446,6 +483,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49T87S5RLN;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = WGRuntimeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wanggang.WGRuntimeDemo;
