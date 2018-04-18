@@ -50,7 +50,7 @@ id commonMethod(id objc, SEL _cmd, id name){
 /*
  在第1步返回NO时。
  Runtime 系统会再给我们一次偷梁换柱的机会，即通过重载下面方法替换消息的接受者为其他对象。
- 这里BigPerson并没有msgsendTest:方法，在转发之前把消息接受对象改为了Person，该类有此方法。取消注释的话，消息转发就不会执行了
+ 这里MsgZFPerson并没有msgsendTest:方法，在转发之前把消息接受对象改为了Person，该类有此方法。取消注释的话，消息转发就不会执行了
  */
 - (id)forwardingTargetForSelector:(SEL)aSelector{
     if (aSelector == @selector(msgsendTest:)) {
@@ -76,8 +76,13 @@ id commonMethod(id objc, SEL _cmd, id name){
 }
 
 -(void)forwardInvocation:(NSInvocation *)anInvocation{
-    [anInvocation setSelector:@selector(dance:)];
-    [anInvocation invokeWithTarget:self];
+    if ([self.p respondsToSelector:[anInvocation selector]]) {
+        [anInvocation invokeWithTarget:self.p];
+    }else{
+        [super forwardInvocation:anInvocation];
+    }
+//    [anInvocation setSelector:@selector(dance:)];
+//    [anInvocation invokeWithTarget:self];
 }
 
 - (NSString *)dance:(NSString *)str{

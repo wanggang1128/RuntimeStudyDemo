@@ -90,7 +90,6 @@
         }
         case 4:{
             MsgZFPerson *zfPer = [[MsgZFPerson alloc] init];
-//            [self alertView:[zfPer performSelector:@selector(say:) withObject:@"你好"]];
             [self alertView:[zfPer performSelector:@selector(msgsendTest:) withObject:@"消息转发第二步偷梁换柱"]];
             break;
         }
@@ -132,10 +131,10 @@
                                   };
             //字典转模型
             PersonModel *dp = [[PersonModel alloc] initWithDictionary:dic];
-            [self alertView:[NSString stringWithFormat:@"%@今年%@岁在%@做%@！",dp.name, dp.age, dp.captionality, dp.occupation]];
+//            [self alertView:[NSString stringWithFormat:@"%@今年%@岁在%@做%@！",dp.name, dp.age, dp.captionality, dp.occupation]];
             //模型转字典
             NSDictionary *newDic = [dp convertToDictionary];
-            //            [self alertView:[NSString stringWithFormat:@"runtime模型转字典%@", newDic]];
+                        [self alertView:[NSString stringWithFormat:@"runtime模型转字典%@", newDic]];
             break;
         }
         default:
